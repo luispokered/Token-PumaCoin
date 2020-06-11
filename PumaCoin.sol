@@ -132,9 +132,8 @@ contract PumaCoin {
 
 //-Dar click al boton "totalSupply" para ver la cantidad total de tokens
 
-//2) Pasos para hacer una transferencia del Owner a otra cuenta
+//2) Pasos para hacer una transferencia a otra cuenta
 
-//(Todo esto se hace desde la cuenta Owner)
 
 //-Seleccionar la segunda cuenta (puede ser cualquier otra pero 
 //se escoge esta para poder notar el cambio) y copiar la direccion
@@ -156,15 +155,18 @@ contract PumaCoin {
 
 //-Cambiar a la cuenta que dará el permiso
 
-//-Primero poner en el recuadro adyacente de "allowance" la cuenta que dará el 
-//permiso despues poner la cuenta que recibirá el permiso, todo separado con comas
+//-Poner en el recuadro adyacente de "approve" la cuenta que tendrá el permiso
+//y la cantidad de tokens a las que tendrá permiso.
+
+//-Poner en el recuadro adyacente de "allowance" la cuenta que dará permiso,
+//despues poner la cuenta que recibirá el permiso, todo separado con comas.
 
 //-Dar click al boton "allowance" y checar en la consola 
 //de comandos que el permiso se concedió de manera correcta
 
 //4) Pasos para Transferir de una cuenta a otra
 
-//-Cambiar a la cuenta que trasferira los tokens 
+//-Cambiar a la cuenta que trasferira los tokens (la que tiene permiso)
 
 //-En el recuadro adyacente del boton "transferFrom" 
 //poner las dos direcciones y la cantidad a tranferir separada por comas
