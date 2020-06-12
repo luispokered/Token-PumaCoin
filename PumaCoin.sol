@@ -115,6 +115,10 @@ contract PumaCoin {
 
 //-------------------------------------------------------------
 
+//(antes de realizar esto, para evitar errores se recomienda
+//desplegar cada funcion quen tenga una flecha a la derecha y meter en los cuadros los datos, 
+//ya que al desplegarse se separan los rubros y se evitan los errores).
+
 //1) Pasos para ver el balance e informacion adicial de una cuenta
 
 //-Cambiar a la cuenta de la cual se quiere obtener informacion. 
@@ -134,9 +138,10 @@ contract PumaCoin {
 
 //2) Pasos para hacer una transferencia a otra cuenta
 
+//La ejecucion de todo este punto se debe hacer con la cuenta owner
+//solamente se cambia a otra cuenta para poder copiar su direccion
 
-//-Seleccionar la segunda cuenta (puede ser cualquier otra pero 
-//se escoge esta para poder notar el cambio) y copiar la direccion
+//-Seleccionar la segunda cuenta  y copiar la direccion
 //de la cuenta (dando click al boton que se encuenta a la misma
 //altura de "Account", es un simbolo negro con un cuadrado blanco 
 //que se llama "Copy value to the clipboard")
@@ -146,21 +151,22 @@ contract PumaCoin {
 //-Poner una coma "," y despues poner la cantidad de tokens a transferir
 //(Tomar en cuenta que se tienen 1000000000000000000000000 unidades inicialmente)
 
-//Poner en "Value" la misma cantidad que en el recuadro anterior.
-
 //-Dar click al boton "transfer" y checar en la consola 
 //de comandos que la transaccion se hizo de manera correcta
 
 //3) Pasos para darle permiso de utilizar una cantidad de tokens a cierta cuenta
 
-//-Cambiar a la cuenta que dará el permiso
+//La cuenta que dara todos los clicks en los botones de las funciones será el owner
+//-Cambiar a la cuenta que dará el permiso para obtener la direccion y 
+//poder copiarla
 
 //-Poner en el recuadro adyacente de "approve" la cuenta que tendrá el permiso
-//y la cantidad de tokens a las que tendrá permiso.
+//y la cantidad maxima de tokens a las que tendrá permiso.
 
-//-Poner en el recuadro adyacente de "allowance" la cuenta que dará permiso,
-//despues poner la cuenta que recibirá el permiso, todo separado con comas.
-
+//
+//-Poner en el primer recuadro adyacente de "allowance" la cuenta que dará permiso,
+//despues en el recuadro de abajo poner la cuenta que recibirá el permiso, 
+//
 //-Dar click al boton "allowance" y checar en la consola 
 //de comandos que el permiso se concedió de manera correcta
 
@@ -170,7 +176,8 @@ contract PumaCoin {
 
 //-En el recuadro adyacente del boton "transferFrom" 
 //poner las dos direcciones y la cantidad a tranferir separada por comas
-//primero se va a poner la cuenta de donde provienen los tokens,
+//o al desplegarse cada recuadro poner:
+//primero la cuenta de donde provienen los tokens y que dió permiso (owner),
 //despues a la cuenta donde se transferiran 
 //y por ultimo la cantidad de tokens a transferir
 
