@@ -93,7 +93,7 @@ contract PumaCoinSale {
 //que se llama "Copy value to the clipboard").
 
 //-En el recuadro adyacente del boton "Deploy", poner el precio al que se pondrá
-//el token (El equipo descidió que fuera 100000000000000000000 wei por token) y 
+//el token (El equipo descidió que fuera 100 wei por token) y 
 //la direccion que copiamos en el paso anterior.
 
 //-Clickear el boton "Deploy".
@@ -133,4 +133,5 @@ contract PumaCoinSale {
 
 //Nota* Si queremos ver un cambio verdadero, se recomienda que 
 //el costo total de wei´s sea mayor a 80000 para que no se vea 
-//afectado por el costo de la transaccion.
+//afectado por el gas utilizado en la transaccion.
+//-
