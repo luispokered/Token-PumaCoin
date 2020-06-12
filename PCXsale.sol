@@ -102,23 +102,35 @@ contract PumaCoinSale {
 
 //-Clickear el boton con el nombre "PumaCoinSale".
 
+//-Copiar la direccion del contrato PumaCoinSale
+
+//-Proceder a transferir tokens al SC, los suficientes para poder 
+//realizar compras
+
 //-------------------------------------------------------------
 //1) Pasos para comprar tokens
 
-//-
+//-Seleccionar la cuenta con la que queremos comprar tokens
 
-//-
+//-En el campo adyacente al boton "buy",  
+//se pondrá la cantidad de tokens a comprar
 
-//-
+//-En el campo value se debe poner el costo del token
+// multiplicado por la cantidad de tokens que queremos 
+//(100*(cantidad de tokens))
 
-//-
+//-Clickear el botón "buy"
 
 //2) Paso para dejar de vender tokens y transferir el sueldo total
 
-//-
+//-Cambiar a la cuenta owner que hizo deploy al SC PumaCoin
 
-//-
+//-Clikear el boton "endSold"
 
-//-
+//-Revisar en la linea de comandos que la transaccion fue correcta
 
-//-
+//-Revisar el saldo de wei (Unidad minima de un Ether)
+
+//Nota* Si queremos ver un cambio verdadero, se recomienda que 
+//el costo total de wei´s sea mayor a 80000 para que no se vea 
+//afectado por el costo de la transaccion.
