@@ -19,11 +19,11 @@ Pasos a ejecutar:
 
 * Cambiar a la cuenta de la cual se quiere obtener informacion. 
 * Copiar su direccion y pegarla en el recuadro adyacente de "balanceOf"
-* Dar click al boton "balanceOf" para ver el balance de la cuenta
-* Dar click al boton "decimals" para ver los ceros que se le agregan a los tokens que inicialmente se tienen.
-* Dar click al boton "name" para ver el nombre del token
-* Dar click al boton "symbol" para ver el nombre del token 
-* Dar click al boton "totalSupply" para ver la cantidad total de tokens
+* Dar click al botón "balanceOf" para ver el balance de la cuenta
+* Dar click al botón "decimals" para ver los ceros que se le agregan a los tokens que inicialmente se tienen.
+* Dar click al botón "name" para ver el nombre del token
+* Dar click al botón "symbol" para ver el nombre del token 
+* Dar click al botón "totalSupply" para ver la cantidad total de tokens
 
 ### Pasos para hacer una transferencia a otra cuenta
 
@@ -32,7 +32,7 @@ La ejecución de todo este punto se debe hacer con la cuenta owner, solamente se
 * Seleccionar la segunda cuenta  y copiar la dirección de la cuenta (dando click al botón que se encuenta a la misma altura de "Account", es un simbolo negro con un cuadrado blanco que se llama "Copy value to the clipboard")
 * Pegar la dirección en el recuadro adyacente al botón "transfer". 
 * Poner una coma "," y despues poner la cantidad de tokens a transferir (Tomar en cuenta que se tienen 1000000000000000000000000 unidades inicialmente) o en su defecto en el primer recuadro la dirección y en el segundo la cantidad
-* Dar click al boton "transfer" y checar en la consola de comandos que la transacción se hizo de manera correcta
+* Dar click al botón "transfer" y checar en la consola de comandos que la transacción se hizo de manera correcta
 
 ### Pasos para darle permiso de utilizar una cantidad de tokens a cierta cuenta
 
