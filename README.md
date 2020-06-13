@@ -27,7 +27,7 @@ Pasos a ejecutar:
 
 ### Pasos para hacer una transferencia a otra cuenta
 
-La ejecución de todo este punto se debe hacer con la cuenta owner, solamente se cambia a otra cuenta para poder copiar su direccion.
+La ejecución de todo este punto se debe hacer con la cuenta owner, solamente se cambia a otra cuenta para poder copiar su dirección.
 
 * Seleccionar la segunda cuenta  y copiar la dirección de la cuenta (dando click al botón que se encuenta a la misma altura de "Account", es un simbolo negro con un cuadrado blanco que se llama "Copy value to the clipboard")
 * Pegar la dirección en el recuadro adyacente al botón "transfer". 
