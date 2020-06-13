@@ -1,6 +1,16 @@
 # Token PumaCoin project
-El proyecto define un nuevo token que se creó bajo el estándar ERC20.
-El token y los archivos necesarios están escritos en el lenguaje de programación Solidity, es necesario utilizar el [IDE Remix](https://www.google.com/) para observar el token en funcionamiento.
+El proyecto define un nuevo token que se creó bajo el estándar ERC20 para la plataforma Ethereum
+El token y los archivos necesarios están escritos en el lenguaje de programación Solidity, es necesario utilizar el [IDE Remix](https://remix.ethereum.org/) para observar el token en funcionamiento.
+
+## Primeros pasos
+Dentro de el link adjuntado anteriormente:
+* Clickear el botón "Use previous version".
+* Volver a cargar la página y clickear "Ok".
+* Crear un nuevo archivo y poner el nombre del archivo a ejecutar.
+* Copiar el contenido del archivo del repositorio.
+* En la parte derecha se encontrará el menú del compilador, seleccionar la versión 0.5.0 dado que en esa versión se escribió el código.
+* Presionar el botón "Start to Compile" para compilar el programa.
+* Ir a la pestaña "Run" para poder ejecutar el programa.
 
 ## Para ejecutar el código PumaCoin
 
