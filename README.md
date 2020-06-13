@@ -73,7 +73,7 @@ La cuenta que dara todos los clicks en los botones de las funciones será el own
 * Seleccionar el archivo PumaCoinSale para hacer su deploy
 * Copiar la dirección del SC PumaCoin (dando click al botón que se encuenta a la misma altura de "PumaCoin at...(memory)", es un símbolo negro con un cuadrado blanco que se llama "Copy value to the clipboard").
 * En el recuadro adyacente del botón "Deploy", poner el precio al que se pondrá
-* el token (El equipo descidió que fuera 100 wei por token) y  la direccion que copiamos en el paso anterior.
+* el token (El equipo decidió que fuera 100 wei por token) y  la direccion que copiamos en el paso anterior.
 * Clickear el boton "Deploy".
 El SC ya se encuentra listo para ejecutar.
 
