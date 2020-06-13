@@ -6,8 +6,8 @@ El token y los archivos necesarios están escritos en el lenguaje de programaci�
 Dentro de el link adjuntado anteriormente:
 * Clickear el botón "Use previous version".
 * Volver a cargar la página y clickear "Ok".
-* Crear un nuevo archivo llamado PCXsale.sol, en el que pegaremos el código del archivo PumaCoin.sol del repo
 * Crear un nuevo archivo llamado PumaCoin.sol, en el que pegaremos el código del archivo PumaCoin.sol del repo
+* Crear un nuevo archivo llamado PCXsale.sol, en el que pegaremos el código del archivo PCXsale.sol del repo
 * En la parte derecha se encontrará el menú del compilador, seleccionar la versión 0.5.0 dado que en esa versión se escribió el código.
 * Presionar el botón "Start to Compile" para compilar el programa.
 * Ir a la pestaña "Run" para poder ejecutar el programa.
