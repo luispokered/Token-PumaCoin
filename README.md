@@ -6,16 +6,13 @@ El token y los archivos necesarios están escritos en el lenguaje de programaci�
 Dentro de el link adjuntado anteriormente:
 * Clickear el botón "Use previous version".
 * Volver a cargar la página y clickear "Ok".
-* Crear un nuevo archivo y poner el nombre del archivo a ejecutar.
-* Copiar el contenido del archivo del repositorio.
+* Crear un nuevo archivo llamado PCXsale.sol, en el que pegaremos el código del archivo PumaCoin.sol del repo
+* Crear un nuevo archivo llamado PumaCoin.sol, en el que pegaremos el código del archivo PumaCoin.sol del repo
 * En la parte derecha se encontrará el menú del compilador, seleccionar la versión 0.5.0 dado que en esa versión se escribió el código.
 * Presionar el botón "Start to Compile" para compilar el programa.
 * Ir a la pestaña "Run" para poder ejecutar el programa.
 
 ## Para ejecutar el código PumaCoin
-
-Ir al IDE remix y crear un nuevo archivo en el que pegaremos el código del archivo PumaCoin.Sol
-
 Pasos a ejecutar:
 * Compilar el código.
 * Dar click en la ventana "Run" que se encuentra en la esquina superior derecha.
