@@ -18,7 +18,7 @@ Pasos a ejecutar:
 ### Pasos para ver el balance e informacion adicial de una cuenta
 
 * Cambiar a la cuenta de la cual se quiere obtener informacion. 
-* Copiar su direccion y pegarla en el recuadro dyacente de "balanceOf"
+* Copiar su direccion y pegarla en el recuadro adyacente de "balanceOf"
 * Dar click al boton "balanceOf" para ver el balance de la cuenta
 * Dar click al boton "decimals" para ver los ceros que se le agregan a los tokens que inicialmente se tienen.
 * Dar click al boton "name" para ver el nombre del token
