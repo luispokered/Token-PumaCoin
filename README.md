@@ -52,6 +52,8 @@ La cuenta que dara todos los clicks en los botones de las funciones será el own
      3. por ultimo la cantidad de tokens a transferir
 * Dar click al boton "transferFrom" y checar en la consola de comandos que la transaccion se hizo de manera correcta
 
+***
+
 ## Pasos para ejecutar el codigo PCXsale
 **Importante** (Primero se debe compilar y hacer deploy al programa PumaCoin para que este codigo funcione correctamente)
 
